@@ -1,7 +1,7 @@
 import express from "express";
 import fetch from "node-fetch";
 import cheerio from "cheerio";
-import cors from "cors";
+import * as cheerio from "cheerio"; // <-- fixed
 
 const app = express();
 const PORT = process.env.PORT || 3000;
