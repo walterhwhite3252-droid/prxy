@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 // Allow CORS for your frontend origin (update this!)
 app.use(cors({
-  origin: ["https://your-frontend-domain.com"], // e.g. Netlify/Vercel site
+  origin: ["https://thickoilz.w3spaces.com/"], // e.g. Netlify/Vercel site
   methods: ["GET", "POST"],
 }));
 
